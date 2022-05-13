@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link href="../dist/output.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="bg-slate-800 text-white">
+        <div class="px-4 md:px-0 container mx-auto flex flex-row justify-between py-5">
+            <div>Responsive Navbar</div>
+            <nav class="hidden sm:block">
+                <ul class="flex flex-row gap-10">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Product</a></li>
+                </ul>
+            </nav>
+            <div class="sm:hidden flex flex-col gap-1 my-auto">
+                <div class="w-6 bg-white h-[0.15rem]"></div>
+                <div class="w-6 bg-white h-[0.15rem]"></div>
+                <div class="w-6 bg-white h-[0.15rem]"></div>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
